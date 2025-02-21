@@ -4,7 +4,8 @@ import { useSelector } from 'react-redux'
 function Home() {
   const value = useSelector((store)=> store.counter.value)
   return (
-    <div>{value}</div>
+    <>
+    </>
   )
 }
 
