@@ -20,7 +20,13 @@ function Layout() {
             <li>
                 Contact
             </li>
-            </Link>
+              </Link>
+              
+              <Link to="/develop">
+                  <li>
+                      Development and technology
+                  </li>
+              </Link>
         </ul>
         <div>
             <Outlet />

@@ -8,6 +8,7 @@ import About from './pages/About/About'
 import NotFound from './pages/NotFound/NotFound'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home/Home'
+import Develop from './pages/Develop/Develop'
 
 
 function App ()  {
@@ -29,6 +30,11 @@ function App ()  {
           element : <Contact />
         },
         {
+          path : "develop",
+          element : <Develop />
+        },
+        
+        {
           path : "*",
           element : <NotFound />
         }
@@ -38,10 +44,17 @@ function App ()  {
 
   return (
     <>
+<<<<<<< HEAD
     <div className='dark:bg-black text-black dark:text-white'>
       <Switcher />
         <RouterProvider router={router} />
       
+=======
+    <div className='dark:bg-black text-black dark:text-white '>
+      <Switcher />
+        <RouterProvider router={router} />
+    
+>>>>>>> e176babb155c7d40f46b6edb47fb6f0cb83e533a
     
     </div>
     
