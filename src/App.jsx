@@ -38,10 +38,10 @@ function App ()  {
 
   return (
     <>
-    <div className='dark:bg-black text-black dark:text-white h-[1000vh]'>
-        <RouterProvider router={router} />
+    <div className='dark:bg-black text-black dark:text-white'>
       <Switcher />
-    
+        <RouterProvider router={router} />
+      
     
     </div>
     
