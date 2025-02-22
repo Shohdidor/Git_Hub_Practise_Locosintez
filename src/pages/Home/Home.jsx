@@ -99,7 +99,6 @@ function Home() {
       <img src="src/assets/map.svg" alt="map" className='m-auto py-[10%]' />
 
     </div>
-
     </>
   )
 }

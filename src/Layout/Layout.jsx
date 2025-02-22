@@ -3,6 +3,7 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 
 import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+// import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 function Layout() {
     let { pathname } = useLocation ()
@@ -30,6 +31,7 @@ function Layout() {
                   <li>
                       Development and technology
                   </li>
+                  {/* <AcUnitIcon /> */}
               </Link>
         </ul>
         <div>
