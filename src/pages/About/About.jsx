@@ -10,7 +10,9 @@ function About() {
     </div>
 
 
-    
+    <h1 className='text-[50px] text-[pink] text-center pt-[50px]'>
+      JoJo
+    </h1>
 
     </>
   )
