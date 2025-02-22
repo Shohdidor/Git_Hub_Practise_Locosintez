@@ -18,6 +18,7 @@ export default function Switcher () {
             checked = { darkSide }
             onChange = { toggleDarkMode }
             size = { 36 }
+            className="w-full text-blue-500"
             />
         </div>
         </>

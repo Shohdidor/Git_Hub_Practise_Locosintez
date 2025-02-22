@@ -100,7 +100,11 @@ function Home() {
 
     </div>
 
+<<<<<<< HEAD
     </>
+=======
+</>
+>>>>>>> 946d9856f1bee8690ce4a0ebcd180389db8ae2d6
   )
 }
 
