@@ -185,7 +185,7 @@ const Develop = () => {
                                 <p className='text-[19px] font-normal leading-[25px] tracking-[0.5px] pt-[20px] text-[#525252]'>Совершенствовать систему правления <br /> качеством для  расширения <br /> возможностей удовлетворения <br /> потребностей заинтересованных сторон</p>
           
                                 <button className='w-[178px] mt-[30px] h-[40px] border-none bg-[#FFD700] text-[19px] font-normal'> 
-                                    Узнать больше >
+                                    Узнать больше 
                                 </button>
                             </div>
                         </div>
