@@ -44,17 +44,9 @@ function App ()  {
 
   return (
     <>
-<<<<<<< HEAD
     <div className='dark:bg-black text-black dark:text-white'>
       <Switcher />
         <RouterProvider router={router} />
-      
-=======
-    <div className='dark:bg-black text-black dark:text-white '>
-      <Switcher />
-        <RouterProvider router={router} />
-    
->>>>>>> e176babb155c7d40f46b6edb47fb6f0cb83e533a
     
     </div>
     
