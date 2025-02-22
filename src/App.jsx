@@ -44,9 +44,11 @@ function App ()  {
 
   return (
     <>
-    <div className='dark:bg-black text-black dark:text-white'>
+      <div className='dark:bg-black text-black dark:text-white'>
+        
       <Switcher />
         <RouterProvider router={router} />
+
     </div>
     </>
   )
