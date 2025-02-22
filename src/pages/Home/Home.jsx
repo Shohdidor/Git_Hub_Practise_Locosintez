@@ -3,7 +3,6 @@ import React from 'react'
 function Home() {
   return (
     <>
-<<<<<<< HEAD
     <div className='bg-[url(src/assets/unsplash_JF56wwlr4Gw.svg)] h-screen dark:opacity-20'>
     </div>
     <div className='px-[10%] pb-[10%]'>
@@ -101,9 +100,7 @@ function Home() {
 
     </div>
 
-=======
->>>>>>> e176babb155c7d40f46b6edb47fb6f0cb83e533a
-    </>
+</>
   )
 }
 
